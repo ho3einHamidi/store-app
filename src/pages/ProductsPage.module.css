@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    .loader {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+  }
+}
