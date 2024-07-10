@@ -12,7 +12,6 @@ function Card({ data }) {
     dispatch({ type, payload: data });
   };
   const quantity = productQuantity(state, id);
-  console.log(quantity);
   return (
     <div className={styles.card}>
       <img src={image} alt={title} />
